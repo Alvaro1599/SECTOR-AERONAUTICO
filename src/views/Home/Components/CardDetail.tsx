@@ -26,7 +26,7 @@ function CardDetail() {
                     <img src={ico} alt='' className={`w-[18px] h-[18px]`} />
                     <h1 className='pl-[8px] font-semibold leading-[14.4px] text-[12px]'>2 Horas</h1>
                 </div>
-                <div className=' px-[7px] py-[4px] rounded-[3px]'>
+                <div className='   rounded-[3px]'>
                     <button className='bg-button rounded-[5px] text-[14px] text-center leading-[24px] font-semibold text-white px-[11px] py-[4px]'>
                         Ver curso
                     </button>

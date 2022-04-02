@@ -11,6 +11,7 @@ import fedd from '../../assets/Home/fedd.svg';
 import CardDetail from './Components/CardDetail';
 import laptop from '../../assets/Home/laptop.svg';
 import Review from './Components/Review';
+import insignia from '../../assets/Home/Insignia.svg';
 function Home() {
     return (
         <section className='text-white px-[30px]  pb-[50px] '>
@@ -22,7 +23,7 @@ function Home() {
                     <span className='font-normal'>y genera nuevas</span>{' '}
                     <span className='font-extrabold text-transparent bg-clip-text bg-text'>habilidades</span>{' '}
                 </h1>
-                <button className=' w-[191px] py-[6px] bg-button pr-[19.8px]  pl-[17.8px] text-left font-prox text-[16px] rounded-[5px] leading-[150%]'>
+                <button className=' w-[191px] py-[6px] bg-button pl-[17.8px] text-left font-prox text-[16px] rounded-[5px] leading-[24px]'>
                     Ver cursos y carreras
                 </button>
             </article>
@@ -68,23 +69,23 @@ function Home() {
                 />
                 <DetailsCard
                     ico={person}
-                    title={'Sumergete en la industria'}
+                    title={'Habilidades Blandas'}
                     text={
-                        'Profundiza tus conocimientos en aviónica, motores, fundamentos, mecatrónica y otras especialidades en una plataforma educativa en en ciencia aeronáuticas.'
+                        'Aprende en conjunto, fortalece tus habilidades sociales por medio de una estructura participativa junto a otros participantes de diferentes nacionalidades.'
                     }
                 />
                 <DetailsCard
                     ico={teach}
-                    title={'Sumergete en la industria'}
+                    title={'Desarrolla tus competencias laborales'}
                     text={
-                        'Profundiza tus conocimientos en aviónica, motores, fundamentos, mecatrónica y otras especialidades en una plataforma educativa en en ciencia aeronáuticas.'
+                        'Desarrolla nuevas competencias, máxima tus conocimientos y aprende sustentarlas a través de una instrucción dinámica y una estructura participativa.'
                     }
                 />
                 <DetailsCard
                     ico={fedd}
-                    title={'Sumergete en la industria'}
+                    title={'Feedback continuo'}
                     text={
-                        'Profundiza tus conocimientos en aviónica, motores, fundamentos, mecatrónica y otras especialidades en una plataforma educativa en en ciencia aeronáuticas.'
+                        'Despeja tus dudas con nuestro instrucciones, de manera que facilite tu proceso de aprendizaje'
                     }
                 />
             </section>
@@ -144,10 +145,12 @@ function Home() {
                 </div>
                 <NavigationCardCourse />
             </section>
-            <section className=' pb-[124px]'>
-                <img src='' alt='' />
-                <h1>Capacita a tu equipo para el mañana </h1>
-                <h2>Sector Aeronautico para empresas.</h2>
+            <section className='flex flex-col font-prox items-center pb-[124px]'>
+                <img src={insignia} alt='' />
+                <h1 className='text-[32px] text-CP1 font-extrabold leading-[38.4px] pb-[17px]'>
+                    Capacita a tu equipo para el mañana
+                </h1>
+                <h2 className='text-[24px] font-semibold pb-[36px]'>Sector Aeronautico para empresas.</h2>
                 <button className='w-full bg-button px-[119.06px] py-[6px] font-extrabold text-[16px] leading-[24px] rounded-[5px] mb-[127px]'>
                     Conocer
                 </button>

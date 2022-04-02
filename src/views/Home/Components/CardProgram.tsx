@@ -27,8 +27,8 @@ function CardProgram() {
             </div>
             <div className='w-full flex justify-between pt-[4.36px] pb-[23px]'>
                 <Date ico={icon} />
-                <div className='bg-white px-[7px] py-[4px] rounded-[3px]'>
-                    <button className='text-center  bg-white font-extrabold text-transparent bg-clip-text  bg-button'>
+                <div className='bg-white px-[8px] py-[4px] flex   rounded-[3px]'>
+                    <button className='text-center text-[8.88px] bg-white font-extrabold text-transparent bg-clip-text  bg-button'>
                         Matricularme
                     </button>
                 </div>

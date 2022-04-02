@@ -17,8 +17,8 @@ function DetailsCard(props: props) {
             </div>
             <h1
                 className={` leading-[24px]${props.other
-                    ? ' text-left text-24px font-extrabold text-transparent bg-clip-text bg-button font-prox pb-[14px]'
-                    : ' text-20px text-24px font-prox font-extrabold pb-[11px]'} `}
+                    ? ' text-left text-[24px] font-extrabold text-transparent bg-clip-text bg-button font-prox pb-[14px]'
+                    : ' text-[24px] font-prox font-extrabold pb-[11px]'} `}
             >
                 {props.title}
             </h1>

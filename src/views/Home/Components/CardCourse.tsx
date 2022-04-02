@@ -12,10 +12,10 @@ function CardCourse() {
                 <img src={background} className='w-full' alt='' />
             </div>
             <div className='w-full font-prox  text-left  text-N100 px-[14px] flex flex-col items-start'>
-                <h1 className='w-full pt-[11px] font-extrabold pb-[24px] text-[14px] leading-[18px]'>
+                <h1 className='w-full pt-[11px] font-extrabold pb-[24px] text-[15px] leading-[18px]'>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 </h1>
-                <div className='w-full flex text-[9px] pb-[11px] text-N90 leading-[12px] justify-between font-extrabold'>
+                <div className='w-full flex text-[10px] pb-[11px] text-N90 leading-[12px] justify-between font-extrabold'>
                     <h2>Dictado por Kevin Urbina</h2>
                     <h2>9 Cupos disponibles</h2>
                 </div>
@@ -30,7 +30,7 @@ function CardCourse() {
                 </div>
                 <div className='w-full font-prox flex justify-between pt-[4.36px]'>
                     <Date />
-                    <button className='bg-button rounded-[5px] text-[14px] text-center leading-[24px] font-semibold text-white px-[14.4px] py-[3.33px]'>
+                    <button className='bg-button rounded-[5px] text-[14px] text-center leading-[24px] font-extrabold text-white px-[14.42px]  py-[3.33px]'>
                         Inscribirme
                     </button>
                 </div>
