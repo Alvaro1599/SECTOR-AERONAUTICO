@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Proxima Nova Extrabold";
+    src: url("./fonts/ProximaNova/Proxima\ Nova\ Extrabold.otf");
+}
+
+@font-face {
+    font-family: "Proxima Nova Regular";
+    src: url("./fonts/ProximaNova/Proxima\ Nova\ Cond\ Reg.otf");
+}
+
+@font-face {
+    font-family: "Proxima Nova Semibold";
+    src: url("./fonts/ProximaNova/Proxima\ Nova\ Condensed\ Semibold.otf");
+}
